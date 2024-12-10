@@ -1,0 +1,44 @@
+.navbar-brand {
+    font-weight: bold;
+}
+
+.product-card {
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    aspect-ratio: 1 / 1.7;
+    object-fit: cover;
+    width: 100%;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050;
+    min-width: 250px;
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.toast-header {
+    padding: 0.5rem 0.75rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.toast-body {
+    padding: 0.75rem;
+}
